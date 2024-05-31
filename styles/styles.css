@@ -1,0 +1,248 @@
+body {
+    margin: 0;
+    background-color: white;
+    color: #292929;
+    font-family: "Cabin", sans-serif;
+}
+.ribbon {
+    background-color: black;
+    color: white;
+    padding: 1px;
+    text-align: center;
+}
+.ribbonText {
+    font-size: 15px;
+}
+.ribbonA {
+    color: white;
+}
+header {
+    background-color: #f0eeeb;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 80px;
+}
+.headerA {
+    color: black;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.headerA--spences{
+    font-weight: bold;
+}
+.headerA--get {
+    color: white;
+    background-color: black;
+    padding: 20px;
+    border-radius: 5px;
+}
+.bars {
+    display: none;
+}
+.first {
+    background-color: #f0eeeb;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 80px 70px;
+}
+.firstBody {
+    width: 650px;
+    font-size: 40px;
+    background-color: #f0eeeb;
+}
+h1 {
+    margin-bottom: 0;
+}
+p{
+    font-size: 20px;
+}
+.firstLi {
+    font-size: 20px;
+
+}
+.first_image {
+    width: 400px;
+}
+input {
+    font-family: "Cabin", sans-serif;
+    text-align: center;
+    padding: 18px 0;
+    border-radius: 5px;
+    border: soid gray 1px;
+}
+button {
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    padding: 20px 25px;
+    font-family: "Cabin", sans-serif;
+}
+.logos {
+display: flex;
+justify-content:space-between;
+align-items: center;
+margin: 40px 80px;
+}
+.logo {
+    width: 100px;
+}
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f0eeeb;
+    margin: 0 80px;
+    border-radius: 10px;
+    padding: 0 80px 0;
+}
+.secondArticle {
+    width: 500px;
+    align-self: center;
+}
+h2{
+    font-size: 35px;
+    margin-bottom: 0;
+}
+.learnMore {
+    color: black;
+}
+.secondImage {
+    width: 400px;
+    padding-top: 40px;
+}
+.third {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 50px 80px;
+}
+.thirdImg {
+    width: 700px;
+}
+.thirdA {
+    color: #292929;
+}
+.thirdArticle {
+    width: 500px;
+}
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 80px;
+}
+.lastP {
+    width: 300px;
+    font-size: 30px;
+}
+h3 {
+    color: white;
+    font-size: 15px;
+}
+.footerText {
+    color: rgb(142, 142, 142);
+    font-size: 17px;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+.footerA {
+    color: rgb(142, 142, 142);
+    text-decoration: none;
+}
+@media screen and (max-width: 1060px){
+    .first{
+        flex-direction: column-reverse;
+    }
+    p {
+        font-size: 16px;
+    }
+   
+    .second {
+        flex-direction: column;
+    }
+    .logo--none {
+        display: none;
+    }
+    .third {
+        flex-direction: column-reverse;
+    }
+    footer {
+        flex-wrap: wrap;
+    }
+    .firstLi {
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 660px){
+    .none {
+        display: none;
+    }
+    .bars {
+        display: flex;
+        padding-right: 10px;
+    }
+    header {
+        padding: 30px 10px;
+    }
+    .first_image {
+        width: 340px;
+    }
+    .firstBody {
+        width: 340px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    p {
+        font-size: 15px;
+    }
+    .firstLi {
+        font-size: 15px;
+    }
+    input {
+        font-size: 15px;
+        padding: 10px;
+
+    }
+    button {
+        font-size: 15px;
+        padding: 14px;
+    }
+    form {
+        display: flex;
+        justify-content: space-between;
+    }
+    .logo {
+        width: 80px;
+    }
+    .logos {
+        margin: 40px 20px;
+    }
+    .logo--p {
+        display: none;
+    }
+    h2 {
+        font-size: 30px;
+    }
+  .secondArticle {
+    width: 250px;
+    margin: 5px;
+  }
+  .second {
+    margin: 15px;
+  }
+    .secondImage {
+        width: 300px;
+    }
+    .thirdArticle {
+        width: 345px;
+    }
+    .thirdImg {width: 375px;}
+}
+
+
+        
